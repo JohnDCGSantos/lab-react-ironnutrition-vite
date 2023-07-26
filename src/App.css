@@ -40,3 +40,54 @@
 .read-the-docs {
   color: #888;
 }
+
+.add-food-form{
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  background: #ecf0f3;
+  border: 3px solid rgb(107, 136, 202);
+}
+  
+
+.add-food-form input{
+  background: #ecf0f3;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  padding: 20px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  text-align: center;
+  border: 3px solid rgb(176, 185, 203);
+ 
+
+
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.add-food-form h2{
+color:rgb(59, 55, 55)
+}
+
+.add-food-form button{
+  background-color: rgb(33, 97, 245);
+  color:white;
+}
+
+.card{
+  border: 3px solid rgb(107, 136, 202);
+  margin-bottom: 7px;
+  background: #ecf0f3;
+  
+
+}
